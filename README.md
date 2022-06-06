@@ -1,4 +1,4 @@
 # AI for games
 
-Nintendo DS Emulators: Desmume, Drastic
+Nintendo DS Emulators using Lua: Desmume, Drastic
 
