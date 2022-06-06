@@ -4,6 +4,8 @@ Desume source code
 
 https://github.com/TASVideos/desmume/
 
+Solution file for VS19: desmume\src\frontend\windows\DeSmuME.sln
+
 https://github.com/TASEmulators/desmume/issues/525
 
 I set the permissions for every possible user to have "Full Control" (so modify, read, write, read&execute") on windows on touch.exe and 7z.exe in the repo.
