@@ -1,5 +1,9 @@
 # Lua scripts
 
+Using the script from https://pastebin.com/1veqsLTs (Slightly Modified ;)
+
+Referenced by http://tasvideos.org/GameResources/DS/MarioKartDS.html
+
 Debug maroikart ds: [mkdsdisplay.lua](mkdsdisplay.lua)
 
 Resulting video:
