@@ -1,0 +1,99 @@
+Desume source code
+https://github.com/TASVideos/desmume/
+
+Current build of Desume
+https://ci.appveyor.com/project/zeromus/desmume/build/artifacts
+
+Desume User Guide
+https://desmume4330.wordpress.com/desmume-user-guide/
+
+Current lua dll
+https://sourceforge.net/projects/luabinaries/files/5.1.5/Windows%20Libraries/Dynamic/
+
+Metroid Prime Hunters Lua Script
+http://forums.desmume.org/viewtopic.php?id=11715
+
+Pokemon Black and White Auto Tracker
+https://github.com/Killklli/PokemonBWAutoPokedex
+
+Desume general forum
+http://forums.desmume.org/viewforum.php?id=2
+
+DS Technical Reference
+http://problemkaputt.de/gbatek.htm
+
+TAS Videos: Lua Scripting
+http://tasvideos.org/LuaScripting.html
+
+TAS Videos Forum: Nintendo DS
+http://tasvideos.org/forum/viewforum.php?f=41&sid=f80e4f3207793cbee0199f06809503b9
+
+TAS Videos Forum: Desume
+http://tasvideos.org/forum/viewforum.php?f=42&sid=f80e4f3207793cbee0199f06809503b9
+
+TAS Videos Forum: BizHawk
+http://tasvideos.org/forum/viewforum.php?f=64&sid=f80e4f3207793cbee0199f06809503b9
+https://github.com/TASVideos/BizHawk
+
+Lua 5.1 Ref Manual
+http://www.lua.org/manual/5.1/
+
+FCEUX lua scripting
+http://fceux.com/web/help/fceux.html?LuaScripting.html
+
+info and ghost display script for TASing in DeSmuME - http://tasvideos.org/1863M.html, http://tasvideos.org/3237S.html
+supported games: Sonic Rush, Sonic Rush Adventure, Sonic Colo[u]rs, and New Super Mario Bros.
+https://pastebin.com/gz975ErQ
+
+http://tasvideos.org/GameResources.html
+http://tasvideos.org/GameResources/DS/MarioKartDS.html
+http://tasvideos.org/GameResources/DS/NewSuperMarioBros.html
+http://tasvideos.org/GameResources/DS/SuperMario64DS.html
+http://tasvideos.org/GameResources/DS/MarioAndLuigiPartnersInTime.html
+http://tasvideos.org/GameResources/DS/MetroidPrimeHunters.html
+http://tasvideos.org/GameResources/DS/PokemonGen4.html
+http://tasvideos.org/GameResources/DS/SuperMonkeyBallTouchAndRoll.html
+http://tasvideos.org/GameResources/DS/TheWorldEndsWithYou.html
+
+Mario Kart DS Lua Script
+https://pastebin.com/1veqsLTs
+
+SM64 Int Overflow
+https://www.youtube.com/watch?v=4IVgXx-ZDHc
+
+https://github.com/Isotarge/ScriptHawk
+
+TAS Tutorials
+https://www.youtube.com/playlist?list=PLlJzD6wWmoXmihK13itZJ-mzjK3SD1EaM
+https://www.youtube.com/watch?v=6tJniMaR2Ps
+http://tasvideos.org/TasingGuide/BasicTools.html
+
+https://github.com/ThomasR95/BHDS_Controller
+https://www.speedrun.com/spp_/guide/2cj1x - lua
+
+https://www.speedrun.com/mkds/guides
+
+http://tasvideos.org/LuaScripting/TableKeys.html
+DeSmuME (joypad lib): debug, R, L, X, Y, A, B, start, select, up, down, left, right, lid
+joypad.get
+joypad.set
+
+
+https://www.reddit.com/r/emulation/comments/hm334k/how_to_play_super_mario_64_ds_with_analog_controls/
+
+https://www.twilio.com/blog/how-to-write-lua-scripts-for-video-games-with-the-bizhawk-emulator
+
+https://github.com/TASVideos/desmume/blob/42093b4929df4408ca2585c8d2d0ed3a812b3e2a/desmume/src/lua-engine.cpp
+Register lua libs: https://github.com/TASVideos/desmume/blob/42093b4929df4408ca2585c8d2d0ed3a812b3e2a/desmume/src/lua-engine.cpp#L5168
+
+
+https://stackoverflow.com/questions/37015949/how-to-map-to-controls-into-an-nes-emulator-with-lua
+
+mariq
+https://docs.google.com/document/d/1uxzeSMqj56YGWh8LkzfNriuGvA3aWU3olg-MSCgWuSI/edit
+
+drastic lua scripting
+https://drastic-ds.com/viewtopic.php?f=5&t=3269
+
+drastic screen gap
+https://drastic-ds.com/viewtopic.php?t=2786
