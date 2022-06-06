@@ -21,4 +21,6 @@ Mario Kart DS Figure 8 Circuit DeSmuME lua debug: https://www.youtube.com/watch?
  <img src="https://img.youtube.com/vi/S9LBAexd97E/0.jpg" alt="Mario Kart DS Figure 8 Circuit DeSmuME lua debug" width="360" height="270" border="10" />
 </a>
 
+Equipment:
 Controller used: https://www.nintendo.com/store/products/super-nintendo-entertainment-system-controller/
+8bitdo Wireless Dongle for Controller: https://www.amazon.com/Wireless-Bluetooth-Adapter-Nintendo-Switch-Raspberry/dp/B0786JC6VW/
