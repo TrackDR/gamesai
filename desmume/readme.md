@@ -1,4 +1,4 @@
-# Building Desmume in VS19
+# Building Desmume (Nintendo DS Emulator) in VS19
 
 Desume source code
 
