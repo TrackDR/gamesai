@@ -4,7 +4,9 @@ Using the script from https://pastebin.com/1veqsLTs (Slightly Modified ;)
 
 Referenced by http://tasvideos.org/GameResources/DS/MarioKartDS.html
 
-Debug maroikart ds: [mkdsdisplay.lua](mkdsdisplay.lua)
+Debug mariokart ds: [mkdsdisplay.lua](mkdsdisplay.lua), [controllers.lua](controllers.lua)
+
+desmume-2022-06-04-48f5a82
 
 Resulting video:
 https://www.tiktok.com/@djjer321/video/6972341253576936709
