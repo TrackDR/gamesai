@@ -6,7 +6,7 @@ Referenced by http://tasvideos.org/GameResources/DS/MarioKartDS.html
 
 Debug mariokart ds: [mkdsdisplay.lua](mkdsdisplay.lua), [controllers.lua](controllers.lua)
 
-Confirmed working with: desmume-2022-06-04-48f5a82 [48f5a82](https://github.com/TASEmulators/desmume/commit/48f5a8289d865d1bd95473b69be75cbce32e63dc)
+Confirmed working with [Desmume](https://github.com/TASEmulators/desmume): desmume-2022-06-04-48f5a82 [48f5a82](https://github.com/TASEmulators/desmume/commit/48f5a8289d865d1bd95473b69be75cbce32e63dc)
 
 Resulting video:
 https://www.tiktok.com/@djjer321/video/6972341253576936709
