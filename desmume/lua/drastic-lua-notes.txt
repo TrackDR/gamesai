@@ -1,0 +1,118 @@
+8. Lua interface
+
+Lua scripts can be placed inside DraStic/scripts and will be loaded if:
+- A script named <ROM file>.lua is found when a game is loaded.
+- A script named 'default.lua' is present. This default script will be loaded for any game.
+
+8.1 Lua callbacks
+
+Define the following 3 callbacks in your Lua script:
+
+// Will be called whenever a new game is loaded.
+// 'game' is a string containing the ROM file name without extension.
+// Use this to open files, if you want to log anything for example.
+function on_load(game)
+end
+
+// Will be called when a game is unloaded (before a new game is loaded, or when DraStic is exited).
+// Use this to close any files you opened for example.
+function on_unload()
+end
+
+// Will be called every frame.
+// You can use this callback to alter button state or memory.
+function on_frame_update()
+end
+
+8.2 Lua constants
+
+The following constants can be accessed from your script to get/set button state:
+- drastic.C.BUTTON_UP
+- drastic.C.BUTTON_DOWN
+- drastic.C.BUTTON_LEFT
+- drastic.C.BUTTON_RIGHT
+- drastic.C.BUTTON_A
+- drastic.C.BUTTON_B
+- drastic.C.BUTTON_X
+- drastic.C.BUTTON_Y
+- drastic.C.BUTTON_L
+- drastic.C.BUTTON_R
+- drastic.C.BUTTON_START
+- drastic.C.BUTTON_SELECT
+- drastic.C.BUTTON_FAST_FORWARD
+- drastic.C.BUTTON_TOUCH
+
+If you want to test if a certain button is set you can do:
+if ((buttons & drastic.C.BUTTON_A) ~= 0) then
+...
+end
+
+If you want to set a certain button:
+buttons = buttons | drastic.C.BUTTON_A
+
+8.3 Core Lua functions
+
+drastic.get_path()
+Returns a string containing the path to the 'DraStic' folder.
+
+drastic.get_buttons()
+Returns an integer with the current button state.
+The state of individual buttons can be tested with the constants in drastic.C.<constant>.
+
+drastic.set_buttons(buttons)
+Sets DraStic's button state to the integer passed as parameter.
+
+drastic.get_touch()
+Returns an integer containing the touch X coordinate in the upper 16 bits,
+and the touch Y coordinate in the lower 16 bits.
+
+drastic.set_touch(touch_x, touch_y)
+Sets DraStic's touch coordinates to the values passed as parameters.
+This only sets the coordinates, if you want to actually press/depress the touchscreen,
+set and unset drastic.C.BUTTON_TOUCH with drastic.set_buttons().
+
+Memory access functions
+To get/set the emulated DS's memory you can use functions in the form:
+drastic.get_ds_memory_<cpu>_<size>(address)
+drastic.set_ds_memory_<cpu>_<size>(address, value)
+
+Here are all possible combinations:
+- drastic.get_ds_memory_arm9_8(address)
+- drastic.get_ds_memory_arm9_16(address)
+- drastic.get_ds_memory_arm9_32(address)
+- drastic.get_ds_memory_arm7_8(address)
+- drastic.get_ds_memory_arm7_16(address)
+- drastic.get_ds_memory_arm7_32(address)
+- drastic.set_ds_memory_arm9_8(address, value)
+- drastic.set_ds_memory_arm9_16(address, value)
+- drastic.set_ds_memory_arm9_32(address, value)
+- drastic.set_ds_memory_arm7_8(address, value)
+- drastic.set_ds_memory_arm7_16(address, value)
+- drastic.set_ds_memory_arm7_32(address, value)
+
+8.4 Android Lua functions
+
+android.get_axis_lx()
+Returns a float with the left thumb stick X-axis value, if an external controller is used.
+
+android.get_axis_ly()
+Returns a float with the left thumb stick Y-axis value, if an external controller is used.
+
+android.get_axis_rx()
+Returns a float with the right thumb stick X-axis value, if an external controller is used.
+
+android.get_axis_ry()
+Returns a float with the right thumb stick Y-axis value, if an external controller is used.
+
+android.get_rotation()
+Returns an integer with the current device rotation in degrees.
+The range is [0,-180[ for counter-clockwise rotation and [0,180] for clockwise rotation.
+
+android.set_layout(layout)
+Sets the current screen layout (range [0,4], in the order the layouts are displayed in the app's menus).
+
+android.show_overlay(show)
+Shows (1) or hides (0) the virtual gamepad overlay.
+
+android.set_screen_swap(swap)
+Enables (1) or disables (0) screen swapping.
